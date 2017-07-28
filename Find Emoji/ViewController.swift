@@ -20,7 +20,7 @@ class ViewController: UIViewController {
     var emoji: String = ""
     @IBOutlet var txtUser: UITextField!
     
-    
+    //Inicio de la app
     override func viewDidLoad() {
         super.viewDidLoad()
         emoji = randomEmoji()
