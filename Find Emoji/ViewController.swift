@@ -39,6 +39,7 @@ class ViewController: UIViewController {
             if vidas > 1 {
                 derrotas += 1
                 vidas -= 1
+                emoji = randomEmoji()
             } else {
                 cargarVisual()
                 alertaFin()
