@@ -36,10 +36,11 @@ class ViewController: UIViewController {
         let user = txtUser.text
         if user != emoji {
             //Vida menos
-            if vidas > 0 {
+            if vidas > 1 {
                 derrotas += 1
                 vidas -= 1
             } else {
+                cargarVisual()
                 alertaFin()
             }
         } else {
